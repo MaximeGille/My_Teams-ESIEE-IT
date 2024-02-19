@@ -6,7 +6,7 @@
 
 ### Utilisation : 
 - server : `./server` 
-- client : `./client <Adresse IP du server> <Port> <Pseudo>` par exemple --> ./client 127.0.0.1 4242 "Client1"
+- client : `./client <Adresse IP du server> <Port> <Pseudo>` par exemple --> `./client 127.0.0.1 4242 "Client1"`
 
 ### Log : 
 - Log.txt : Une fois que le server à redirige un message vers un client il écrit un log du message dans un fichier log.txt.  
