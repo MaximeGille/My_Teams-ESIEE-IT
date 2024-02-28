@@ -4,6 +4,10 @@
 - client.c : Script du client qui envoie les messages
 - server.c : Script du server qui reçoit et affiches les messages
 
+### GCC : 
+- server : `gcc server.c -o server -pthread`
+- client : `gcc client.c -lncurses -o client`
+
 ### Utilisation : 
 - server : `./server` 
 - client : `./client <Adresse IP du server> <Port> <Pseudo>` par exemple --> `./client 127.0.0.1 4242 "Client1"`
