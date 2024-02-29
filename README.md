@@ -1,12 +1,15 @@
 # Projet My_Teams ESIEE-IT
- 
-### Fichier : 
-- client.c : Script du client qui envoie les messages
-- server.c : Script du server qui reçoit et affiches les messages
+
+### Nécéssite : 
+- Install : `apt-get install libncurses5-dev libncursesw5-dev`
 
 ### GCC : 
 - server : `gcc server.c -o server -pthread`
 - client : `gcc client.c -lncurses -o client`
+
+### Fichier : 
+- client.c : Script du client qui envoie les messages
+- server.c : Script du server qui reçoit et affiches les messages
 
 ### Utilisation : 
 - server : `./server` 
